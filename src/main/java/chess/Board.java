@@ -22,7 +22,7 @@ public class Board {
 
         for(int row = 0; row < MAX_ROW; row++){
 
-            for(int col = 0; row < MAX_COL; col++){
+            for(int col = 0; col < MAX_COL; col++){
                 
                 // We set 2 colors in RBG numbers, everytime ze draw a square, we switch a color
                 if( c== 0){
