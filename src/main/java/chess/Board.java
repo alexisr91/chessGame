@@ -41,6 +41,7 @@ public class Board {
             }else{
                 c = 0;
             }
+
         }
     }
 }
