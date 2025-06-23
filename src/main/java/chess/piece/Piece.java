@@ -5,6 +5,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import chess.Board;
+import java.awt.Graphics2D;
 
 public class Piece {
     
@@ -49,5 +50,9 @@ public class Piece {
 
         return row* Board.SQUARE_SIZE;
 
+    }
+
+    public void draw(Graphics2D g2){
+        g2.drawImage(image, x, y, Board.SQUARE_SIZE, Board.SQUARE_SIZE, null);
     }
 }
